@@ -1,0 +1,6 @@
+# Custom configuration for blue tear segmentation
+hsv_h: 0.015  # Hue augmentation (±15°)
+hsv_s: 0.25   # Saturation augmentation (±25%)
+hsv_v: 0.20   # Brightness/exposure augmentation (±20%)
+degrees: 0.0  # No rotation (paper specifies vertical shear only)
+shear: 15.0   # Vertical shear (±15°)
